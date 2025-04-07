@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scrape": "node --require dotenv/config src/scrapers/scrape.js",
-    "start": "npm run scrape && node src/app.js"
+    "start": "npm run scrape && node --require dotenv/config src/app.js"
   },
   "keywords": [],
   "author": "",
